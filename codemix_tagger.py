@@ -5,7 +5,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
 #getting the data
-f = open('/Users/Moukthika/Desktop/codemix_data.csv', 'r', encoding = 'utf8')
+f = open('path', encoding = 'utf8')
 reader = csv.reader(f)
 x = list(reader)
 data = numpy.array(x).astype("str")
